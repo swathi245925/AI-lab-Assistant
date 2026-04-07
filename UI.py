@@ -1,6 +1,7 @@
 import streamlit as st
 from langchain_groq import ChatGroq
-from langchain.agents import initialize_agent, Tool
+from langchain.agents import initialize_agent
+from langchain.tools import Tool
 import os
 
 # 🔑 Get API KEY securely (NO hardcoding)
