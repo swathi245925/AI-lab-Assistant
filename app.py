@@ -3,7 +3,8 @@ import warnings
 import logging
 
 from langchain_groq import ChatGroq
-from langchain.agents import initialize_agent, Tool
+from langchain.agents import initialize_agent
+from langchain.tools import Tool
 from langchain.memory import ConversationBufferMemory
 
 # 🔕 Remove warnings & debug logs
